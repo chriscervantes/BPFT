@@ -3,7 +3,7 @@ import * as budgetController from "../controllers/budgetController";
 
 const router = express.Router();
 
-router.get("/", budgetController.getAllExamples);
-router.post("/", budgetController.createExample);
+router.get("/", budgetController.getAllBudgets);
+router.post("/", budgetController.createBudget);
 
 export default router;
